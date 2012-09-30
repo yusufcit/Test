@@ -10,6 +10,7 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
+       echo "hello world. this is Yusuf";
         // action body
     }
 
