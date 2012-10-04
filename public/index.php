@@ -13,6 +13,7 @@ set_include_path(implode(PATH_SEPARATOR, array(
     realpath(APPLICATION_PATH . '/../library'),
     get_include_path(),
 )));
+// just added a cooment
 
 /** Zend_Application */
 require_once 'Zend/Application.php';
